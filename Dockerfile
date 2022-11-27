@@ -1,5 +1,5 @@
-from eclipse-temurin:8u352-b08-jdk-alpine
-from amazoncorretto:8-alpine3.15
+#from eclipse-temurin:8u352-b08-jdk-alpine
+from amazoncorretto:8-alpine3.15-jdk
 
 RUN apk update && apk add wget git python2
 RUN git clone https://github.com/apache/atlas.git 
